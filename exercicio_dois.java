@@ -9,10 +9,10 @@ public class exercicio_dois {
         String nome = in.nextLine();
 
         System.out.print("Digite o seu cpf: ");
-        double cpf = in.nextDouble();
+        String cpf = in.nextLine();
 
         System.out.print("Digite o seu rg: ");
-        double rg = in.nextDouble();
+        String rg = in.nextLine();
 
         System.out.println("Cadastro realizado com sucesso!");
         System.out.println("Nome: " + nome);

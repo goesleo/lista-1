@@ -18,7 +18,7 @@ public class exercicio_um {
         System.out.print("\n\tDigite sua idade: ");
         idade = in.nextInt();
 
-        System.out.println("\n\t" + nome + "," + idade + "anos," + cidade);
+        System.out.println("\n\t" + nome + "," + cidade + "," + idade + "anos");
 
     }
 }
